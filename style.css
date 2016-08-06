@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+}
+
+#calculator {
+
+	position: relative;
+	padding: 1em;
+    background: #aaa none repeat scroll 0 0;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 320px;
+    min-height: 300px;
+
+    /* right, down, blur, spread (optional), color */
+    box-shadow: 0 0 3px 1px #000;
+}
+
+#display {
+    height: 1em;
+    background-color: #000;
+    border-radius: 5px;
+    color: orange;
+    font-size: 3em;
+    padding: 0.5rem;
+    text-align: right;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#number-buttons {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+}
+
+.button {
+	cursor: pointer;
+    background: #eee none repeat scroll 0 0;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin: 3px;
+    text-align: center; 
+    border: solid 1px #888;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #333;
+    box-sizing: border-box;
+}
+.button:first-child {
+	margin-left: 0;
+}
+
+.button span {
+	display: block;
+	padding-top: 7px;
+}
